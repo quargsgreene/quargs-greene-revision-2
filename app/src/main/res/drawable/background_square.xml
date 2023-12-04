@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/black" />
+
+    <!-- Small Square 1: Red, positioned at the top-left corner -->
+    <item android:left="16dp" android:top="16dp" android:right="375dp" android:bottom="70dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff0000" />
+            <size android:width="30dp" android:height="30dp" />
+        </shape>
+    </item>
+
+    <!-- Small Square 2: Blue, positioned 50dp from the top and 50dp from the left -->
+    <item android:left="16dp" android:top="695dp" android:right="70dp" android:bottom="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#0000ff" />
+            <size android:width="30dp" android:height="30dp" />
+        </shape>
+    </item>
+
+    <item android:left="375dp" android:top="64dp" android:right="16dp" android:bottom="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/purple_200" />
+            <size android:width="30dp" android:height="30dp" />
+        </shape>
+    </item>
+
+    <item android:left="70dp" android:top="16dp" android:right="16dp" android:bottom="695dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <size android:width="30dp" android:height="30dp" />
+        </shape>
+    </item>
+</layer-list>

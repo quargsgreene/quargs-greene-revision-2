@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stacker</string>
+    <string name="title_stack">STACK</string>
+    <string name="start_game">Start Game</string>
+    <string name="menu">Menu</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="Stack">Stack</string>
+    <string name="GameStart">GameStart</string>
+</resources>
